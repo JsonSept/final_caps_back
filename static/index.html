@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+      <html lang="en">
+      <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+      </head>
+      <body>
+        <h1>API Routes and Methods</h1>
+        <h4>Home</h4>
+    <table>
+      <tr>
+        <th>http Methods</th>
+        <th>Path</th>
+        <th>Description</th>
+      </tr>
+      <tr>
+        <td>GET</td>
+        <td>/</td>
+        <td>Takes you to the homepage</td>
+      </tr>
+    </table>
+    <h3>Users</h3>
+    <table>
+      <tr>
+        <td>GET</td>
+        <td>/users</td>
+        <td>Displays all the users with their info</td>
+      </tr>
+      <tr>
+        <td>GET</td>
+        <td>/users/:id</td>
+        <td>Displays a single user with their info</td>
+      </tr>
+      <tr>
+        <td>POST</td>
+        <td>/users/register</td>
+        <td>Adds a new user</td>
+      </tr>
+      <tr>
+        <td>PATCH/PUT</td>
+        <td>/users/update/:id</td>
+        <td>allows you to edit a users info</td>
+      </tr>
+      <tr>
+        <td>DELETE</td>
+        <td>/users/delete/:id</td>
+        <td>allows you to delete a users info</td>
+      </tr>
+    </table>
+    
+    <h3>Products/items</h3>
+    <table>
+      <tr>
+        <td>GET</td>
+        <td>/products</td>
+        <td>Displays all the products with their info</td>
+      </tr>
+      <tr>
+        <td>GET</td>
+        <td>/products/:id</td>
+        <td>Displays a single user with their info</td>
+      </tr>
+      <tr>
+        <td>POST</td>
+        <td>/products/register</td>
+        <td>Adds a new user</td>
+      </tr>
+      <tr>
+        <td>PATCH/PUT</td>
+        <td>/products/update/:id</td>
+        <td>allows you to edit a products info</td>
+      </tr>
+      </table>
+
+        <style>
+             table, th, td {
+      border: 3px solid black;
+      padding: 2px;
+      margin-left: 2px;
+      width: 40%;
+    }
+    table {
+      padding: 4px;
+    }
+        </style>
+      </body>
+      </html>
